@@ -28,7 +28,7 @@ class Formulario extends Component {
   }
 
   render () {
-    const { nome, livro, preco, listener } = this.state;
+    const { nome, livro, preco } = this.state;
 
     return (
 
