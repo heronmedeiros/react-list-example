@@ -6,6 +6,8 @@ import Form from './Formulario'
 import 'materialize-css/dist/css/materialize.min.css';
 import { render } from '@testing-library/react';
 
+import './App.css';
+
 
 
 class App extends Component {
@@ -53,12 +55,16 @@ class App extends Component {
     return (
       <Fragment>
         <Header />
-        <Tabela
-          autores     = { this.state.autores }
-          removeAutor = { this.removeAutor }
-        />
 
-        <Form submitListener={ this.submitListener }/>
+        <div className='container mb-10'>
+          <Tabela
+          className="centered highlight"
+            autores     = { this.state.autores }
+            removeAutor = { this.removeAutor }
+          />
+
+          <Form submitListener={ this.submitListener }/>
+        </div>
       </Fragment>
     );
   }
