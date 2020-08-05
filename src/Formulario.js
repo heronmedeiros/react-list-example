@@ -41,7 +41,7 @@ class Formulario extends Component {
               type="text"
               name="nome"
               value={nome}
-              onChange={this.escutadorDeInput}
+              onChange={this.inputListener}
               className="validade"
             />
           </div>
@@ -52,7 +52,7 @@ class Formulario extends Component {
               type="text"
               name="livro"
               value={livro}
-              onChange={this.escutadorDeInput}
+              onChange={this.inputListener}
               className="validade"
             />
 
@@ -64,11 +64,11 @@ class Formulario extends Component {
               type="text"
               name="preco"
               value={preco}
-              onChange={this.escutadorDeInput}
+              onChange={this.inputListener}
             />
           </div>
         </div>
-        <button onClick={this.submitFormulario} type="button"
+        <button onClick={this.formSubmit} type="button"
           className="waves-effect waves-light indigo lighten-2 btn">Salvar
           </button>
       </form>
