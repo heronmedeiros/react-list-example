@@ -14,8 +14,21 @@ class Formulario extends Component {
     this.state = this.stateInicial;
   }
 
+
+  inputListener = event => {
+    const { name, value } = event.target
+    this.setState({
+      [name] : value
+    })
+  }
+
+  formSubmit = () =>{
+    this.props.submitListener(this.state)
+    this.setState(this.stateInicial);
+  }
+
   render () {
-    const { nome, livro, preco } = this.state;
+    const { nome, livro, preco, listener } = this.state;
 
     return (
 
@@ -26,14 +39,16 @@ class Formulario extends Component {
             id="nome"
             type="text"
             name="nome"
-            value={ nome }/>
+            value={ nome }
+            onChange = { this.inputListener }/>
 
         <label htmlFor="livro">Livro</label>
         <input
             id="livro"
             type="text"
             name="livro"
-            value={ livro }/>
+            value={ livro }
+            onChange = { this.inputListener }/>
 
 
         <label htmlFor="preco">Preço</label>
@@ -41,10 +56,11 @@ class Formulario extends Component {
             id="preco"
             type="text"
             name="preco"
-            value={ preco }/>
+            value={ preco }
+            onChange = { this.inputListener }/>
 
 
-        <button type="button">Salvar
+        <button onClick={this.formSubmit} type="button">Salvar
         </button>
       </form>
     )
