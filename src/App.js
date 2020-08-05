@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Tabela from './Tabela'
+import Form from './Formulario'
 
 import './App.css';
 import { render } from '@testing-library/react';
@@ -47,9 +48,11 @@ class App extends Component {
     return (
       <div className="App">
         <Tabela
-          autores = { this.state.autores }
+          autores     = { this.state.autores }
           removeAutor = { this.removeAutor }
         />
+
+        <Form />
       </div>
     );
   }
