@@ -21,8 +21,8 @@ const TableBody = props => {
         <td>{ linha.preco }</td>
          <td>
             <button
-              className="waves-effect waves-light indigo lighten-2 btn">
-              onClick = {() => {props.removeAutor(index) }}
+              className="waves-effect waves-light indigo lighten-2 btn"
+              onClick = {() => {props.removeAutor(index) }}>
                 Remover
             </button>
         </td>
