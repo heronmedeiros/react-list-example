@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-list-example/static/css/main.53e33a2f.chunk.css",
+    "main.js": "/react-list-example/static/js/main.015b5aa4.chunk.js",
+    "main.js.map": "/react-list-example/static/js/main.015b5aa4.chunk.js.map",
+    "runtime-main.js": "/react-list-example/static/js/runtime-main.cd7a994d.js",
+    "runtime-main.js.map": "/react-list-example/static/js/runtime-main.cd7a994d.js.map",
+    "static/css/2.5a510433.chunk.css": "/react-list-example/static/css/2.5a510433.chunk.css",
+    "static/js/2.750d4807.chunk.js": "/react-list-example/static/js/2.750d4807.chunk.js",
+    "static/js/2.750d4807.chunk.js.map": "/react-list-example/static/js/2.750d4807.chunk.js.map",
+    "index.html": "/react-list-example/index.html",
+    "precache-manifest.c021feef7b46656f7f34dd0dd786e050.js": "/react-list-example/precache-manifest.c021feef7b46656f7f34dd0dd786e050.js",
+    "service-worker.js": "/react-list-example/service-worker.js",
+    "static/css/2.5a510433.chunk.css.map": "/react-list-example/static/css/2.5a510433.chunk.css.map",
+    "static/css/main.53e33a2f.chunk.css.map": "/react-list-example/static/css/main.53e33a2f.chunk.css.map",
+    "static/js/2.750d4807.chunk.js.LICENSE.txt": "/react-list-example/static/js/2.750d4807.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd7a994d.js",
+    "static/css/2.5a510433.chunk.css",
+    "static/js/2.750d4807.chunk.js",
+    "static/css/main.53e33a2f.chunk.css",
+    "static/js/main.015b5aa4.chunk.js"
+  ]
+}
